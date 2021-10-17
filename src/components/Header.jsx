@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Header() {
-  return <h1 style={{ color: '#eee' }}>Minhas Tarefas</h1>;
+  return <h1 style={{ color: '#eee' }}>My Tasks</h1>;
 }
 
 export default Header;
