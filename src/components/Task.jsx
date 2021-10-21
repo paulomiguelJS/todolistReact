@@ -17,7 +17,7 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
         task.completed
           ? {
               borderLeft: '6px solid chartreuse',
-              textDecoration: 'line-through  ',
+              textDecoration: 'line-through',
             }
           : {}
       }

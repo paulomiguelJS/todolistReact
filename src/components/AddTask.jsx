@@ -27,6 +27,7 @@ function AddTask({ handleTaskAddition }) {
         value={inputData}
         className="add-task-input"
         type="text"
+        maxLength="38"
       />
       <div className="add-task-button-container">
         {' '}
