@@ -12,12 +12,14 @@ function AddTask({ handleTaskAddition }) {
   };
 
   const handleAddTaskClick = () => {
-    if (inputData === '') {
+    if (inputData.trim() === '') {
       return alert('Please, you need to add a task!');
     }
+
     handleTaskAddition(inputData);
     setInputData('');
   };
+
   return (
     <div className="add-task-container">
       <input
