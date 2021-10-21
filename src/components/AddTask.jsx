@@ -12,6 +12,9 @@ function AddTask({ handleTaskAddition }) {
   };
 
   const handleAddTaskClick = () => {
+    if (inputData === '') {
+      return alert('Please, you need to add a task!');
+    }
     handleTaskAddition(inputData);
     setInputData('');
   };
