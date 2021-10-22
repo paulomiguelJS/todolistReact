@@ -16,7 +16,6 @@
 
 .task-title {
   display: flex;
-  flex-wrap: wrap;
   cursor: pointer;
   padding: 0.3rem 0.5rem;
 }
