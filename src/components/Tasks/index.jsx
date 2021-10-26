@@ -1,7 +1,7 @@
 import React from 'react';
 import './Task.css';
 
-import Task from './Task';
+import Task from '../Task';
 
 const Tasks = ({ tasks, handleTaskClick, handleTaskDeletion }) => {
   return (
