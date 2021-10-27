@@ -3,10 +3,10 @@ import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Header from './components/Header';
-import Tasks from './components/Tasks';
-import AddTask from './components/AddTask';
-import TaskDetails from './components/TaskDetails';
+import Header from './components/Header/index';
+import Tasks from './components/Tasks/Tasks';
+import AddTask from './components/AddTask/index';
+import TaskDetails from './components/TaskDetails/index';
 
 import './App.css';
 

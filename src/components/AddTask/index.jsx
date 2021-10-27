@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import './addTask.css';
+import './style.css';
 
-import Button from './Button';
+import Button from '../Button/index';
 
 function AddTask({ handleTaskAddition }) {
   const [inputData, setInputData] = useState('');

@@ -1,9 +1,9 @@
 import React from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 
-import Button from './Button';
+import Button from '../Button/index';
 
-import './TaskDetails.css';
+import './style.css';
 
 export const TaskDetails = () => {
   const params = useParams();

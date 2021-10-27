@@ -2,7 +2,7 @@ import React from 'react';
 import { CgClose, CgInfo } from 'react-icons/cg';
 import { useHistory } from 'react-router-dom';
 
-import './Task.css';
+import './style.css';
 
 const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
   const history = useHistory();
